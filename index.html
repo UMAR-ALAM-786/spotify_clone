@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify_logo.jpg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1> Best of NCS - NO Copyright Sounds</h1>
+
+        <div class="songItemContainer">
+
+        <div class="songItem">
+            <img alt="1">
+            <span class="songName">Amplifier</span>
+            <span class="songlistplay"><span class="timestamp">05:34<i id="0"  class="fa-regular songItemPlay  fa-circle-play fa" style="color: black;"></i></span> </span>
+             </div>
+
+             <div class="songItem">
+                <img  alt="1">
+                <span class="songName">Deewana kar Raha Hain</span>
+                <span class="songlistplay"><span class="timestamp">06:03<i id="1" class="fa-regular songItemPlay fa-circle-play fa" style="color: black;"></i></span> </span>
+                 </div>
+                 
+
+                 <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">kaisi Teri Khudgarzi</span>
+                    <span class="songlistplay"><span class="timestamp">07:14<i id="2" class="fa-regular songItemPlay fa-circle-play fa" style="color: black;"></i></span> </span>
+                     </div>
+
+                     <div class="songItem">
+                        <img alt="1">
+                        <span class="songName">Raaz-E-Ulfat</span>
+                        <span class="songlistplay"><span class="timestamp">05:54<i id="3" class="fa-regular songItemPlay fa-circle-play fa" style="color: black;"></i></span> </span>
+                         </div>
+
+                         <div class="songItem">
+                            <img alt="1">
+                            <span class="songName">Tu Hai Ki Nahi</span>
+                            <span class="songlistplay"><span class="timestamp">05:14<i id="4" class="fa-regular songItemPlay fa-circle-play fa" style="color: black;"></i></span> </span>
+                             </div>
+
+                             <div class="songItem">
+                                <img  alt="1">
+                                <span class="songName">Tujhe Sochta Hoon </span>
+                                <span class="songlistplay"><span class="timestamp">04:34<i id="5" class="fa-regular songItemPlay fa-circle-play " style="color: black;"></i></span> </span>
+                                 </div>
+                                 
+
+                                 <div class="songItem">
+                                    <img  alt="1">
+                                    <span class="songName">Oye Hoye </span>
+                                    <span class="songlistplay"><span class="timestamp">06:04<i id="6" class="fa-regular songItemPlay fa-circle-play " style="color: black;"></i></span> </span>
+                                     </div>
+        </div>
+    </div>
+        
+     <div class="songBanner"></div>
+</div>
+
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+    <div class="icons">
+        <!--fontawesome icons-->
+        <i class="fa-solid fa-backward-step fa-2xl" style="color: #ffffff;" id="previous"></i>
+        <i class="fa-regular fa-circle-play fa-2xl" style="color: #ffffff;" id="masterPlay"></i>
+        <i  class="fa-solid fa-forward-step fa-2xl" style="color: #ffffff;" id="next"></i>
+        <!-- < i id="1" class="fa-regular fa-circle-pause fa-2xl" style="color: #fcfcfc;"> -->
+    </div>
+
+    <div class="songInfo">
+        <img src = "playing.gif" width="30px" alt="" id="gif"><span id="masterSongName"> Amplifier - Imran [NCS Release]</span>
+    </div>
+</div>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/56bc368154.js" crossorigin="anonymous"></script>
+</body>
+</html>
